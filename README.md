@@ -1,12 +1,31 @@
-# About me
+# Karan Choudhary
 
+**B.Tech | Mathematics and Data Science Engineering**  
+**National Institute of Technology, Bhopal (2022–2026)**
 
-**Aisenh037/Aisenh037** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## About
 
-- 🔭 I’m currently studying at NIT BHOPAL
-- 🌱 I’m currently learning Mathematics And Data Science Engineering
-- 📫 How to reach me: aisenh037@gmail.com
-- 😄 Pronouns: he/him
-  
+Final-year undergraduate with a strong academic foundation in data science, mathematics, and computer science fundamentals. Currently seeking full-time roles in:
+
+- Software Development  
+- Data Engineering / Data Analytics  
+- Technology / Business Analysis
+
+---
+
+## Skills
+
+- **Languages**: Python, C++, JavaScript (ES6), SQL  
+- **Frameworks**: React.js, Node.js, Express, MongoDB  
+- **Tools**: Git, GitHub, Postman, Jupyter, Excel  
+- **Core Areas**: Data Structures, Algorithms, OOP, DBMS, ML
+
+---
+
+## Contact
+
+- 📧 Email: [aisenh037@gmail.com](mailto:aisenh037@gmail.com)  
+- 🔗 LinkedIn: [[linkedin.com/in/karan-choudhary-nit](https://www.linkedin.com/in/karan-choudhary-8b62a6216/)](#)  
+- 📄 Resume: [View PDF](#)

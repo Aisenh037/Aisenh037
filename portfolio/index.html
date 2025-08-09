@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Karan Choudhary · Portfolio</title>
+  <meta name="description" content="Portfolio of Karan Choudhary, B.Tech in Mathematics and Data Science Engineering at NIT Bhopal. Software development, data engineering, and analytics." />
+  <meta name="theme-color" content="#0ea5e9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1726" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./styles.css" />
+  <meta property="og:title" content="Karan Choudhary · Portfolio" />
+  <meta property="og:description" content="Software Development · Data Engineering · Analytics" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com" />
+  <meta property="og:image" content="./assets/og-image.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Karan Choudhary",
+    "jobTitle": "Software Developer / Data Engineer",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "National Institute of Technology, Bhopal"
+    },
+    "email": "mailto:aisenh037@gmail.com",
+    "url": "https://example.com",
+    "sameAs": [
+      "https://www.linkedin.com/in/karan-choudhary-8b62a6216/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="#home">KC</a>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+      <ul class="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Karan Choudhary</h1>
+          <p class="subtitle">B.Tech · Mathematics and Data Science Engineering · NIT Bhopal (2022–2026)</p>
+          <p class="lead">Software Development · Data Engineering / Analytics · Technology / Business Analysis</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="./assets/resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="./assets/avatar.svg" alt="Illustration / avatar for Karan Choudhary" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          Final-year undergraduate with a strong academic foundation in data science, mathematics, and computer science fundamentals. Seeking full-time roles in software development, data engineering/analytics, and technology/business analysis.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="card">
+            <h3>Languages</h3>
+            <ul>
+              <li>Python</li>
+              <li>C++</li>
+              <li>JavaScript (ES6)</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Frameworks</h3>
+            <ul>
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>Postman</li>
+              <li>Jupyter</li>
+              <li>Excel</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Core Areas</h3>
+            <ul>
+              <li>Data Structures & Algorithms</li>
+              <li>OOP</li>
+              <li>DBMS</li>
+              <li>Machine Learning</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="muted">These load from <code>projects.json</code>. Edit that file to add your own.</p>
+        <div id="projectsGrid" class="projects-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <div>
+            <p>Email: <a href="mailto:aisenh037@gmail.com">aisenh037@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/karan-choudhary-8b62a6216/" target="_blank" rel="noopener noreferrer">Profile</a></p>
+          </div>
+          <div class="cta-row">
+            <a class="btn" href="mailto:aisenh037@gmail.com?subject=Opportunities%20for%20Karan%20Choudhary">Email Me</a>
+            <a class="btn" href="./assets/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Karan Choudhary</span>
+      <a href="#home" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <noscript>
+    <div class="container">
+      <p>JavaScript is disabled. Projects are shown as a static list.</p>
+    </div>
+  </noscript>
+  <script src="./script.js" defer></script>
+</body>
+</html>

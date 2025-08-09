@@ -1,0 +1,23 @@
+[
+  {
+    "title": "A Practical Guide to ETL with Python and Pandas",
+    "excerpt": "From raw CSVs to clean analytics tables: steps, pitfalls, and code snippets.",
+    "date": "2024-07-12",
+    "tags": ["Python", "ETL", "Data Engineering"],
+    "url": "#"
+  },
+  {
+    "title": "Optimizing MongoDB Queries for REST APIs",
+    "excerpt": "Indexes, projections, and query patterns that actually move the needle.",
+    "date": "2024-05-03",
+    "tags": ["MongoDB", "Node.js", "Backend"],
+    "url": "#"
+  },
+  {
+    "title": "React Project Structure that Scales",
+    "excerpt": "Folder patterns and conventions that keep your components maintainable.",
+    "date": "2023-12-19",
+    "tags": ["React", "Architecture"],
+    "url": "#"
+  }
+]

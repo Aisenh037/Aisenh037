@@ -1,0 +1,25 @@
+[
+  {
+    "role": "Software Engineering Intern",
+    "company": "Tech Startup XYZ",
+    "location": "Remote",
+    "period": "May 2024 – Aug 2024",
+    "bullets": [
+      "Built RESTful APIs with Node.js and Express, integrating MongoDB schemas and indexes.",
+      "Improved request latency by 35% through query optimization and caching.",
+      "Authored Postman collections and onboarding docs."
+    ],
+    "link": "#"
+  },
+  {
+    "role": "Data Analyst Intern",
+    "company": "Analytics Lab",
+    "location": "Bhopal, IN",
+    "period": "Dec 2023 – Feb 2024",
+    "bullets": [
+      "Developed Python ETL scripts (Pandas) to clean and aggregate multi-source datasets.",
+      "Built dashboards with Plotly and presented insights to stakeholders."
+    ],
+    "link": "#"
+  }
+]

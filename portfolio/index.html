@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Karan Choudhary · Portfolio</title>
-  <meta name="description" content="Portfolio of Karan Choudhary, B.Tech in Mathematics and Data Science Engineering at NIT Bhopal. Software development, data engineering, and analytics." />
-  <meta name="theme-color" content="#0ea5e9" media="(prefers-color-scheme: light)">
+  <meta name="description" content="Portfolio of Karan Choudhary, B.Tech in Mathematics and Data Science Engineering at NIT Bhopal. Software development, data engineering, analytics, achievements, and blog." />
+  <meta name="theme-color" content="#8b5cf6" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0b1726" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="./styles.css" />
@@ -42,6 +42,9 @@
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#blog">Blog</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -126,7 +129,31 @@
       </div>
     </section>
 
-    <section id="contact" class="section alt">
+    <section id="achievements" class="section alt">
+      <div class="container">
+        <h2>Achievements</h2>
+        <p class="muted">These load from <code>achievements.json</code>. Add hackathons, awards, publications.</p>
+        <div id="achievementsGrid" class="achievements-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
+        <p class="muted">These load from <code>experience.json</code>. Include internships, roles, and responsibilities.</p>
+        <ol id="experienceTimeline" class="timeline" aria-live="polite"></ol>
+      </div>
+    </section>
+
+    <section id="blog" class="section alt">
+      <div class="container">
+        <h2>Blog</h2>
+        <p class="muted">These load from <code>blog.json</code>. Link to Medium, Hashnode, or your own posts.</p>
+        <div id="blogGrid" class="blog-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
       <div class="container">
         <h2>Contact</h2>
         <div class="contact-grid">
@@ -152,7 +179,7 @@
 
   <noscript>
     <div class="container">
-      <p>JavaScript is disabled. Projects are shown as a static list.</p>
+      <p>JavaScript is disabled. Content is shown as static placeholders.</p>
     </div>
   </noscript>
   <script src="./script.js" defer></script>

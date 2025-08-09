@@ -72,6 +72,94 @@
     }
   }
 
+  // Achievements
+  async function loadAchievements() {
+    const grid = document.getElementById('achievementsGrid');
+    if (!grid) return;
+    try {
+      const res = await fetch('./achievements.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error('Failed to fetch achievements');
+      const items = await res.json();
+      if (!Array.isArray(items)) throw new Error('Malformed achievements.json');
+      grid.innerHTML = '';
+      for (const a of items) grid.appendChild(renderAchievement(a));
+    } catch (err) {
+      console.warn('Achievements fallback:', err);
+      grid.innerHTML = '<p class="muted">Add achievements in achievements.json</p>';
+    }
+  }
+  function renderAchievement(item) {
+    const { title, issuer, date, link, description } = item;
+    const card = document.createElement('article');
+    card.className = 'card achievement';
+    const h3 = document.createElement('h3'); h3.textContent = title || 'Achievement';
+    const meta = document.createElement('div'); meta.className = 'meta'; meta.textContent = [issuer, date].filter(Boolean).join(' • ');
+    const p = document.createElement('p'); p.textContent = description || '';
+    const actions = document.createElement('div'); actions.className = 'cta-row';
+    if (link) { const a = document.createElement('a'); a.href = link; a.target = '_blank'; a.rel = 'noopener'; a.className = 'btn'; a.textContent = 'View'; actions.appendChild(a); }
+    card.append(h3, meta, p, actions);
+    return card;
+  }
+
+  // Experience
+  async function loadExperience() {
+    const list = document.getElementById('experienceTimeline');
+    if (!list) return;
+    try {
+      const res = await fetch('./experience.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error('Failed to fetch experience');
+      const items = await res.json();
+      if (!Array.isArray(items)) throw new Error('Malformed experience.json');
+      list.innerHTML = '';
+      for (const e of items) list.appendChild(renderExperience(e));
+    } catch (err) {
+      console.warn('Experience fallback:', err);
+      list.innerHTML = '<li class="muted">Add roles in experience.json</li>';
+    }
+  }
+  function renderExperience(item) {
+    const { role, company, period, location, bullets = [], link } = item;
+    const li = document.createElement('li');
+    const roleEl = document.createElement('p'); roleEl.className = 'role'; roleEl.textContent = role || 'Role';
+    const companyEl = document.createElement('p'); companyEl.className = 'company'; companyEl.textContent = [company, location].filter(Boolean).join(' • ');
+    const periodEl = document.createElement('p'); periodEl.className = 'period'; periodEl.textContent = period || '';
+    const ul = document.createElement('ul');
+    bullets.forEach(b => { const i = document.createElement('li'); i.textContent = b; ul.appendChild(i); });
+    const actions = document.createElement('div'); actions.className = 'cta-row';
+    if (link) { const a = document.createElement('a'); a.href = link; a.target = '_blank'; a.rel = 'noopener'; a.className = 'btn'; a.textContent = 'Company'; actions.appendChild(a); }
+    li.append(roleEl, companyEl, periodEl, ul, actions);
+    return li;
+  }
+
+  // Blog
+  async function loadBlog() {
+    const grid = document.getElementById('blogGrid');
+    if (!grid) return;
+    try {
+      const res = await fetch('./blog.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error('Failed to fetch blog');
+      const items = await res.json();
+      if (!Array.isArray(items)) throw new Error('Malformed blog.json');
+      grid.innerHTML = '';
+      for (const p of items) grid.appendChild(renderPost(p));
+    } catch (err) {
+      console.warn('Blog fallback:', err);
+      grid.innerHTML = '<p class="muted">Add posts in blog.json</p>';
+    }
+  }
+  function renderPost(post) {
+    const { title, excerpt, date, tags = [], url } = post;
+    const card = document.createElement('article');
+    card.className = 'card blog-card';
+    const h3 = document.createElement('h3'); h3.textContent = title || 'Untitled';
+    const meta = document.createElement('div'); meta.className = 'meta'; meta.textContent = [date, (tags || []).join(', ')].filter(Boolean).join(' • ');
+    const p = document.createElement('p'); p.textContent = excerpt || '';
+    const actions = document.createElement('div'); actions.className = 'cta-row';
+    if (url) { const a = document.createElement('a'); a.href = url; a.target = '_blank'; a.rel = 'noopener'; a.className = 'btn primary'; a.textContent = 'Read'; actions.appendChild(a); }
+    card.append(h3, meta, p, actions);
+    return card;
+  }
+
   function renderProjectCard(project) {
     const { title, description, tech = [], links = {} } = project;
     const card = document.createElement('article');
@@ -122,4 +210,7 @@
   }
 
   loadProjects();
+  loadAchievements();
+  loadExperience();
+  loadBlog();
 })();

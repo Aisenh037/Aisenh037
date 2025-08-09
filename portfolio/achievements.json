@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Smart India Hackathon Finalist",
+    "issuer": "MHRD, Government of India",
+    "date": "2024",
+    "description": "Built a data-driven solution to optimize municipal resource allocation using geospatial clustering.",
+    "link": "#"
+  },
+  {
+    "title": "Kaggle Competition Top 5%",
+    "issuer": "Kaggle",
+    "date": "2023",
+    "description": "Ranked in the top 5% for a time-series forecasting challenge with gradient boosting and feature engineering.",
+    "link": "#"
+  },
+  {
+    "title": "College Coding Contest Winner",
+    "issuer": "NIT Bhopal",
+    "date": "2022",
+    "description": "Won campus coding contest solving DS&A problems under time constraints.",
+    "link": "#"
+  }
+]

@@ -1,29 +1,29 @@
 [
   {
-    "title": "Data Pipeline for Sales Analytics",
-    "description": "Built an end-to-end ETL pipeline using Python and SQL to aggregate, clean, and visualize sales data with interactive dashboards.",
-    "tech": ["Python", "Pandas", "SQL", "Plotly"],
+    "title": "AstralytiQ: No-Code Forecasting & BI Platform",
+    "description": "Built a no-code platform for automated forecasting, EDA, and dashboards adopted by business users. Enabled one-click ML predictions for 40+ SKUs and plug-and-play model integration. Automated ETL/cloud deployment, reducing the manual reporting cycle by 80%.",
+    "tech": ["Python", "Streamlit", "Plotly", "ARIMA", "XGBoost"],
     "links": {
-      "repo": "#",
-      "demo": "#"
+      "repo": "https://github.com/Aisenh037/sales-forecast-app",
+      "demo": "https://sales-forecast-app-jfp8hbxrt95ny72qkkpygs.streamlit.app/"
     }
   },
   {
-    "title": "React Portfolio SPA",
-    "description": "Single-page application showcasing projects and blogs with React and client-side routing.",
-    "tech": ["React", "Vite", "JavaScript", "CSS"],
+    "title": "MBC Department Management System",
+    "description": "Developed a MERN stack portal with JWT role-based access, analytics, and reporting for over 1,000 records. Its modular UI and automated Excel workflows saved 4+ staff hours weekly. Integrated batch analytics, which reduced manual data entry errors by 30%.",
+    "tech": ["MongoDB", "Express.js", "React", "Node.js", "JWT", "ExcelJS"],
     "links": {
-      "repo": "#",
-      "demo": "#"
+      "repo": "https://github.com/Aisenh037/MBC_DEPT_MNGMNT.git",
+      "demo": ""
     }
   },
   {
-    "title": "MongoDB REST API",
-    "description": "Node.js and Express REST API with MongoDB, JWT authentication, and request validation.",
-    "tech": ["Node.js", "Express", "MongoDB", "JWT"],
+    "title": "NOAA Weather Pattern Analytics – JFK",
+    "description": "Analyzed over 114,000 hourly weather records for anomaly detection, trend identification, and forecasting. Prototyped ARIMA/LSTM models and optimized runtime by 40% through vectorization. Automated the analytics delivery, cutting the manual workload by 50%.",
+    "tech": ["Python", "Pandas", "Matplotlib", "ARIMA", "LSTM"],
     "links": {
-      "repo": "#",
-      "demo": "#"
+      "repo": "https://github.com/Aisenh037/Weather-Pattern-Analytics-JFK.git",
+      "demo": ""
     }
   }
 ]

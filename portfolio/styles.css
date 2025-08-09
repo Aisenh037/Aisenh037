@@ -84,7 +84,15 @@ body {
 .hero h1 { font-size: clamp(32px, 6vw, 56px); margin: 0; }
 .subtitle { margin: 8px 0 10px; color: var(--muted); }
 .lead { margin: 0 0 18px; font-size: 18px; }
-.hero-art img { width: 100%; max-width: 320px; display: block; margin: 0 auto; }
+
+/* .hero-art img { width: 100%; max-width: 320px; display: block; margin: 0 auto; } */
+/* Make the profile photo a circle */
+.hero-art img {
+  border-radius: 50%;
+  width: 200px;  /* You can adjust this size */
+  height: 200px; /* You can adjust this size */
+  object-fit: cover; /* This prevents the image from looking squashed */
+}
 
 .section { padding: 56px 0; }
 .section.alt { background: color-mix(in hsl, var(--bg-alt) 85%, transparent); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
@@ -109,6 +117,26 @@ body {
 .btn.primary:hover { filter: brightness(1.05); }
 
 .cta-row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+
+/* --- Contact Icon Styling --- */
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem; /* space between icons */
+  margin-top: 2rem;
+}
+
+.contact-icons a {
+  text-decoration: none;
+  color: var(--text-color-primary); /* Use theme color */
+  font-size: 2.5rem; /* Icon size */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-icons a:hover {
+  color: var(--color-accent); /* Use theme accent color on hover */
+  transform: scale(1.2); /* Make icon slightly larger on hover */
+}
 
 .site-footer { border-top: 1px solid var(--border); }
 .footer-inner { height: 64px; display: flex; align-items: center; justify-content: space-between; }

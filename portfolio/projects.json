@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Data Pipeline for Sales Analytics",
+    "description": "Built an end-to-end ETL pipeline using Python and SQL to aggregate, clean, and visualize sales data with interactive dashboards.",
+    "tech": ["Python", "Pandas", "SQL", "Plotly"],
+    "links": {
+      "repo": "#",
+      "demo": "#"
+    }
+  },
+  {
+    "title": "React Portfolio SPA",
+    "description": "Single-page application showcasing projects and blogs with React and client-side routing.",
+    "tech": ["React", "Vite", "JavaScript", "CSS"],
+    "links": {
+      "repo": "#",
+      "demo": "#"
+    }
+  },
+  {
+    "title": "MongoDB REST API",
+    "description": "Node.js and Express REST API with MongoDB, JWT authentication, and request validation.",
+    "tech": ["Node.js", "Express", "MongoDB", "JWT"],
+    "links": {
+      "repo": "#",
+      "demo": "#"
+    }
+  }
+]

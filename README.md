@@ -8,7 +8,7 @@
 Final-year undergraduate with a strong academic foundation in **data science, mathematics, and computer science**. Passionate about building **scalable software solutions**, **data-driven systems**, and **AI-powered analytics tools**.  
 Currently seeking **full-time roles** in:  
 - 💻 **Software Development**  
-- 📊 **Data Engineering / Data Analytics**  
+- 📊 **Data Engineering / Data Scientist**  
 - 📈 **Technology & Business Analysis**  
 
 ---

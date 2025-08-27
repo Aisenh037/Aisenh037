@@ -6,7 +6,7 @@
   <p>Building scalable software and intelligent data-driven systems.</p>
 
   <p>
-    <img src="https://komarev.com/ghpvc/?username=karan-choudhary-nit&style=for-the-badge&color=blueviolet" alt="Profile Views"/>
+    <img src="https://komarev.com/ghpvc/?username=Aisenh037&style=for-the-badge&color=blueviolet" alt="Profile Views"/>
   </p>
   
   <a href="mailto:aisenh037@gmail.com">
@@ -94,25 +94,25 @@ Here are the technologies I work with. I'm skilled in both building web applicat
 <div align="center">
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=karan-choudhary-nit&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=karan-choudhary-nit&layout=compact&langs_count=8&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Aisenh037&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aisenh037&layout=compact&langs_count=8&theme=tokyonight"/>
 </a>
 <br/>
 <br/>
 <a href="https://github.com/denvercoder1/github-readme-streak-stats">
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com?user=karan-choudhary-nit&theme=tokyonight&hide_border=false"/>
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com?user=Aisenh037&theme=tokyonight&hide_border=false"/>
 </a>
 <br/>
 <br/>
 <a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=karan-choudhary-nit&theme=tokyonight&row=1&column=7"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Aisenh037&theme=tokyonight&row=1&column=7"/>
 </a>
 <br/>
 <br/>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/karan-choudhary-nit/karan-choudhary-nit/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/karan-choudhary-nit/karan-choudhary-nit/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/karan-choudhary-nit/karan-choudhary-nit/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aisenh037/aisenh037/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aisenh037/aisenh037/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Aisenh037/aisenh037/output/github-contribution-grid-snake.svg">
 </picture>
 
 </div>

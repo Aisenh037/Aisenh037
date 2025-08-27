@@ -1,32 +1,40 @@
-# GitHub Action for generating a contribution graph with a snake eating your contributions
-name: Generate Snake
+# Name of the workflow
+name: Generate Snake Contribution Grid
 
+# This workflow runs automatically every 12 hours and can also be run manually.
 on:
   schedule:
-    # Runs every 12 hours
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    # This is the "debugged" part: It explicitly gives the workflow
+    # permission to write to your repository, which is needed to create the 'output' branch.
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout
+      # Check out the repository code
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Generate Snake animation
+      # This step generates the snake animation files
+      - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
-          # IMPORTANT: Your GitHub username is required here
+          # Your GitHub username is required here
           github_user_name: Aisenh037
           
-          # List of files to generate.
-          # The dark theme is enabled by default, add `?palette=github-dark`
+          # The list of output files to generate
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push to output branch
+      # This step pushes the generated files to a new branch called 'output'
+      - name: Push Generated Files to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output

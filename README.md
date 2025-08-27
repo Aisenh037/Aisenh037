@@ -94,8 +94,8 @@ Here are the technologies I work with, skilled in both web development and data 
 <div align="center">
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Aisenh037&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aisenh037&layout=compact&langs_count=8&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Aisenh037&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&cache_seconds=3600"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aisenh037&layout=compact&langs_count=8&theme=tokyonight&cache_seconds=3600"/>
 </a>
 <br/><br/>
 <a href="https://github.com/denvercoder1/github-readme-streak-stats">

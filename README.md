@@ -34,7 +34,7 @@ I am a final-year undergraduate with a strong academic foundation in **data scie
 
 ### **🛠️ My Tech Stack**
 
-Here are the technologies I work with. I'm skilled in both building web applications and analyzing data.
+Here are the technologies I work with, skilled in both web development and data analysis.
 
 <br/>
 
@@ -97,18 +97,15 @@ Here are the technologies I work with. I'm skilled in both building web applicat
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Aisenh037&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aisenh037&layout=compact&langs_count=8&theme=tokyonight"/>
 </a>
-<br/>
-<br/>
+<br/><br/>
 <a href="https://github.com/denvercoder1/github-readme-streak-stats">
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com?user=Aisenh037&theme=tokyonight&hide_border=false"/>
 </a>
-<br/>
-<br/>
+<br/><br/>
 <a href="https://github.com/ryo-ma/github-profile-trophy">
   <img src="https://github-profile-trophy.vercel.app/?username=Aisenh037&theme=tokyonight&row=1&column=7"/>
 </a>
-<br/>
-<br/>
+<br/><br/>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aisenh037/aisenh037/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aisenh037/aisenh037/output/github-contribution-grid-snake.svg">

@@ -42,19 +42,30 @@ I focus on **production-grade engineering**:
 
 ---
 
-## 🧭 Engineering Contribution Flow (Directional)
+## 🧭 Engineering Activity Model
 
-This reflects **how I actually work**, not just how often I commit.
 
+
+**Interpretation**
+- **West (Commits)** → frequent, atomic changes
+- **East (PRs)** → reviewable feature branches
+- **North (Reviews)** → correctness > speed
+- **South (Merges)** → green CI only
+
+This explains **meaning**, not just volume.
 
 ---
 
+## 🔲 Contribution Discipline (Badges)
+
+```md
 ## 🔲 Contribution Discipline
 
 ![Commits](https://img.shields.io/badge/Commits-Consistent-2ea44f?style=for-the-badge)
 ![Pull Requests](https://img.shields.io/badge/Pull%20Requests-Reviewed-2ea44f?style=for-the-badge)
 ![Code Reviews](https://img.shields.io/badge/Code%20Reviews-Enforced-2ea44f?style=for-the-badge)
 ![Merges](https://img.shields.io/badge/Merges-CI%20Verified-2ea44f?style=for-the-badge)
+```
 
 **Workflow Principles**
 - Feature-branch development only  
@@ -174,6 +185,11 @@ This reflects **how I actually work**, not just how often I commit.
 </div>
 
 ---
+
+## 📅 Contribution Calendar
+
+![calendar](https://github-readme-stats.vercel.app/api?username=Aisenh037&hide_border=true&theme=tokyonight&custom_title=Contribution%20Activity)
+
 
 > *“The science of today is the technology of tomorrow.”* — **Edward Teller**
 

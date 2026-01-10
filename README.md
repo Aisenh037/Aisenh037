@@ -44,34 +44,35 @@ I focus on **production-grade engineering**:
 
 ## 🧭 Engineering Activity Model
 
+            ▲  Code Reviews
+            │  (quality gate)
+            │
+Commits (West) ◄─┼─► Pull Requests (East)
+│
+▼
+CI-Verified Merges
 
 
 **Interpretation**
-- **West (Commits)** → frequent, atomic changes
-- **East (PRs)** → reviewable feature branches
-- **North (Reviews)** → correctness > speed
-- **South (Merges)** → green CI only
-
-This explains **meaning**, not just volume.
+- **Commits** → frequent, atomic changes  
+- **Pull Requests** → reviewable feature branches  
+- **Code Reviews** → correctness > speed  
+- **Merges** → green CI only  
 
 ---
 
-## 🔲 Contribution Discipline (Badges)
-
-```md
 ## 🔲 Contribution Discipline
 
 ![Commits](https://img.shields.io/badge/Commits-Consistent-2ea44f?style=for-the-badge)
 ![Pull Requests](https://img.shields.io/badge/Pull%20Requests-Reviewed-2ea44f?style=for-the-badge)
 ![Code Reviews](https://img.shields.io/badge/Code%20Reviews-Enforced-2ea44f?style=for-the-badge)
 ![Merges](https://img.shields.io/badge/Merges-CI%20Verified-2ea44f?style=for-the-badge)
-```
 
 **Workflow Principles**
 - Feature-branch development only  
 - Small, atomic, reversible commits  
-- Mandatory PR review (even for solo repos)  
-- CI-backed merges via GitHub Actions  
+- Mandatory PR review  
+- CI-backed merges  
 
 ---
 
@@ -90,70 +91,15 @@ This explains **meaning**, not just volume.
 `Apache Kafka` · `RabbitMQ`
 
 **Data & ML**  
-`NumPy` · `Pandas` · `ARIMA` · `XGBoost` · `LSTM` · `RAG` · `LangChain`
+`NumPy` · `Pandas` · `ARIMA` · `XGBoost` · `LSTM` · `RAG`
 
 **DevOps & Cloud-Native**  
 `Docker` · `Kubernetes` · `GitHub Actions` · `CI/CD`
 
-**Frontend / Mobile**  
-`React` · `Flutter` · `HTML` · `CSS`
-
 ---
 
 ## 🚀 Projects
-
-### 🟢 Feedline Platform
-**Spring Boot · Clean Architecture · Modular Monolith**
-
-- Production-grade food delivery backend
-- Designed with a **clear microservices migration path**
-- Focused on scalability, domain isolation, and maintainability
-
----
-
-### 🔐 SecureNotebook
-**Spring Boot · Spring Security · PostgreSQL · React**
-
-- Secure note management system
-- Role-based authentication & authorization
-- Encrypted data handling
-
----
-
-### 🏥 Healthcare Chatbot (RAG)
-**FastAPI · MongoDB · Pinecone · LangChain**
-
-- Secure RBAC-enabled healthcare chatbot
-- Retrieval-Augmented Generation for accurate responses
-- Designed for compliance-aware environments
-
----
-
-### 📊 AstralytiQ — No-Code Forecasting BI Platform
-**Python · Streamlit · Plotly · ARIMA · XGBoost**
-
-- End-to-end **ETL → forecasting → visualization** pipeline
-- Reduced manual reporting from **~5 hours to ~10 minutes**
-- One-click forecasting for **40+ product SKUs**
-
----
-
-### 🏫 Campus / MBC Department Management System
-**MongoDB · Express · React · Node.js · JWT · ExcelJS**
-
-- Managed **1k+ academic records**
-- Role-based access control
-- Automated Excel reporting
-- Reduced administrative overhead by **~30%**
-
----
-
-### 🥗 NutriSync
-**Flutter · AI-driven recommendations**
-
-- Voice-first nutrition assistant
-- Personalized meal recommendations
-- Tailored for Indian dietary patterns
+(keep your project descriptions here — already correct)
 
 ---
 
@@ -174,8 +120,6 @@ This explains **meaning**, not just volume.
 
 ![snake](https://raw.githubusercontent.com/Aisenh037/Aisenh037/output/snake.svg)
 
-
-
 ---
 
 ## 🎭 Coding Activity
@@ -190,6 +134,7 @@ This explains **meaning**, not just volume.
 
 ![calendar](https://github-readme-stats.vercel.app/api?username=Aisenh037&hide_border=true&theme=tokyonight&custom_title=Contribution%20Activity)
 
+---
 
 > *“The science of today is the technology of tomorrow.”* — **Edward Teller**
 
@@ -197,4 +142,3 @@ This explains **meaning**, not just volume.
   <b>Thanks for visiting.</b><br/>
   <i>Build clean. Ship responsibly.</i>
 </div>
-

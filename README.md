@@ -163,6 +163,7 @@ This reflects **how I actually work**, not just how often I commit.
 
 ![snake](https://raw.githubusercontent.com/Aisenh037/Aisenh037/output/snake.svg)
 
+
 ---
 
 ## 🎭 Coding Activity

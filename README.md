@@ -42,22 +42,25 @@ I focus on **production-grade engineering**:
 
 ---
 
-## 🧭 Engineering Activity Model
+## 🟢 Engineering Activity Compass
 
-            ▲  Code Reviews
-            │  (quality gate)
-            │
-Commits (West) ◄─┼─► Pull Requests (East)
-│
-▼
-CI-Verified Merges
-
+```
+                         ▲  Code Reviews
+                         │
+                         │
+100% Commits ◄───────────┼───────────► Issues
+                         │
+                         │
+                         ▼
+                    Pull Requests
+```
 
 **Interpretation**
 - **Commits** → frequent, atomic changes  
 - **Pull Requests** → reviewable feature branches  
 - **Code Reviews** → correctness > speed  
 - **Merges** → green CI only  
+
 
 ---
 
@@ -102,37 +105,33 @@ CI-Verified Merges
 (keep your project descriptions here — already correct)
 
 ---
-
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Aisenh037&show_icons=true&theme=tokyonight&include_all_commits=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aisenh037&layout=compact&theme=tokyonight" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Aisenh037&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aisenh037&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Aisenh037&theme=tokyonight"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aisenh037&theme=tokyonight&hide_border=true"/>
 </div>
-
----
-
-## 🐍 Contribution Activity (Automated)
-
-![snake](https://raw.githubusercontent.com/Aisenh037/Aisenh037/output/snake.svg)
 
 ---
 
 ## 🎭 Coding Activity
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aisenh037&theme=tokyo-night"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aisenh037&theme=tokyo-night&hide_border=true"/>
 </div>
 
 ---
 
-## 📅 Contribution Calendar
+## 📅 Contribution Overview
 
-![calendar](https://github-readme-stats.vercel.app/api?username=Aisenh037&hide_border=true&theme=tokyonight&custom_title=Contribution%20Activity)
+> Refer to the contribution graph above for detailed activity distribution.
+
+![snake](https://raw.githubusercontent.com/Aisenh037/Aisenh037/output/snake.svg)
+
 
 ---
 

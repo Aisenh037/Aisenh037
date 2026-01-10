@@ -9,14 +9,14 @@ permissions:
   contents: write
 
 jobs:
-  snake:
+  generate-snake:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate Snake SVG
+      - name: Generate snake animation
         uses: Platane/snk@v3
         with:
           github_user_name: Aisenh037
@@ -24,7 +24,7 @@ jobs:
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
 
-      - name: Publish SVG to Output Branch
+      - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output

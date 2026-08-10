@@ -1,29 +1,63 @@
 [
   {
-    "title": "AstralytiQ: No-Code Forecasting & BI Platform",
-    "description": "Built a no-code platform for automated forecasting, EDA, and dashboards adopted by business users. Enabled one-click ML predictions for 40+ SKUs and plug-and-play model integration. Automated ETL/cloud deployment, reducing the manual reporting cycle by 80%.",
-    "tech": ["Python", "Streamlit", "Plotly", "ARIMA", "XGBoost"],
+    "title": "AstralytiQ — No-Code Forecasting & BI",
+    "category": "Data & ML",
+    "impact": "Cut a 5-hour manual reporting cycle to ~10 minutes across 40+ SKUs",
+    "description": "Upload sales data, clean and explore it, and generate ARIMA/XGBoost forecasts with interactive dashboards — no code required. Automated the full ETL-to-cloud pipeline.",
+    "tech": ["Python", "Streamlit", "ARIMA", "XGBoost", "Plotly"],
     "links": {
-      "repo": "https://github.com/Aisenh037/sales-forecast-app",
+      "repo": "https://github.com/Aisenh037/AstralytiQ",
       "demo": "https://sales-forecast-app-jfp8hbxrt95ny72qkkpygs.streamlit.app/"
     }
   },
   {
-    "title": "MBC Department Management System",
-    "description": "Developed a MERN stack portal with JWT role-based access, analytics, and reporting for over 1,000 records. Its modular UI and automated Excel workflows saved 4+ staff hours weekly. Integrated batch analytics, which reduced manual data entry errors by 30%.",
-    "tech": ["MongoDB", "Express.js", "React", "Node.js", "JWT", "ExcelJS"],
+    "title": "Release Copilot — AI DevOps Agent",
+    "category": "AI & Agents",
+    "impact": "Runs a software release end-to-end without a human in the loop",
+    "description": "Reads what changed on GitHub, flags risks, files Jira tickets, ships to Netlify, and publishes a release report to Notion — every API call flowing through one integration layer.",
+    "tech": ["TypeScript", "AI Agents", "GitHub API", "Jira", "Netlify"],
     "links": {
-      "repo": "https://github.com/Aisenh037/MBC_DEPT_MNGMNT.git",
-      "demo": ""
+      "repo": "https://github.com/Aisenh037/Release-Copilot---AI-DevOps-Deployment-Agent"
     }
   },
   {
-    "title": "NOAA Weather Pattern Analytics – JFK",
-    "description": "Analyzed over 114,000 hourly weather records for anomaly detection, trend identification, and forecasting. Prototyped ARIMA/LSTM models and optimized runtime by 40% through vectorization. Automated the analytics delivery, cutting the manual workload by 50%.",
-    "tech": ["Python", "Pandas", "Matplotlib", "ARIMA", "LSTM"],
+    "title": "Feedline — Food-Delivery Backend",
+    "category": "Backend",
+    "impact": "Production patterns: modular monolith with a designed path to microservices",
+    "description": "A food-delivery backend built in Spring Boot with clean architecture, real-world domain modeling, and scalability as a first-class concern.",
+    "tech": ["Java", "Spring Boot", "PostgreSQL"],
     "links": {
-      "repo": "https://github.com/Aisenh037/Weather-Pattern-Analytics-JFK.git",
-      "demo": ""
+      "repo": "https://github.com/Aisenh037/feedline-platform"
+    }
+  },
+  {
+    "title": "RegIntel — Compliance Intelligence",
+    "category": "AI & Agents",
+    "impact": "Turns RBI/SEBI/NPCI circulars into measurable action points with deadlines",
+    "description": "Extracts and chunks regulatory PDFs, embeds them into ChromaDB, and uses Gemini-powered RAG to convert raw regulation into actionable compliance plans.",
+    "tech": ["Python", "RAG", "ChromaDB", "Gemini API"],
+    "links": {
+      "repo": "https://github.com/Aisenh037/RegIntel-AI"
+    }
+  },
+  {
+    "title": "NutriSync — AI Nutrition Assistant",
+    "category": "Full-stack & Mobile",
+    "impact": "Cultural food intelligence for Indian dietary patterns, not a generic calorie counter",
+    "description": "A voice-first Flutter app with personalized meal recommendations built around how India actually eats — regional cuisines, home cooking, and local ingredients.",
+    "tech": ["Flutter", "Dart", "Voice AI"],
+    "links": {
+      "repo": "https://github.com/Aisenh037/nutrisync-app"
+    }
+  },
+  {
+    "title": "ShastraLab — UPSC Answer Evaluation",
+    "category": "Full-stack & Mobile",
+    "impact": "Examiner-style feedback on handwritten and typed civil-services answers",
+    "description": "Evaluates UPSC answers for structure, relevance, depth, and examiner expectations, with visual mentoring for aspirants who lack access to good coaching.",
+    "tech": ["TypeScript", "Spring Boot", "AI Evaluation"],
+    "links": {
+      "repo": "https://github.com/Aisenh037/shastra-lab-mvp"
     }
   }
 ]
